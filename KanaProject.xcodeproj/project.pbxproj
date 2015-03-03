@@ -10,13 +10,16 @@
 		6B3114FB1A97799700C790B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3114FA1A97799700C790B8 /* AppDelegate.swift */; };
 		6B3115001A97799700C790B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B3114FE1A97799700C790B8 /* Main.storyboard */; };
 		6B3115021A97799700C790B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3115011A97799700C790B8 /* Images.xcassets */; };
-		6B3115111A97799800C790B8 /* KanaProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3115101A97799800C790B8 /* KanaProjectTests.swift */; };
+		6B3115111A97799800C790B8 /* HieroglyphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3115101A97799800C790B8 /* HieroglyphTests.swift */; };
 		6B31151B1A977CFA00C790B8 /* KanaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31151A1A977CFA00C790B8 /* KanaService.swift */; };
 		6B31151D1A97809D00C790B8 /* Katakana.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B31151C1A97809D00C790B8 /* Katakana.plist */; };
 		6B31151F1A9780A600C790B8 /* Hiragana.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B31151E1A9780A600C790B8 /* Hiragana.plist */; };
-		6B3115211A97847500C790B8 /* KanaGuessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3115201A97847500C790B8 /* KanaGuessController.swift */; };
-		6B31667B1AA11A1B00DAA96F /* KanaSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31667A1AA11A1B00DAA96F /* KanaSelectionViewController.swift */; };
 		6B31667D1AA1D42C00DAA96F /* Hieroglyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31667C1AA1D42C00DAA96F /* Hieroglyph.swift */; };
+		6BA219E81AA6176A005E9C9F /* KanaGuessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA219E61AA6176A005E9C9F /* KanaGuessController.swift */; };
+		6BA219E91AA6176A005E9C9F /* KanaSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA219E71AA6176A005E9C9F /* KanaSelectionViewController.swift */; };
+		6BA219EC1AA617B2005E9C9F /* Hieroglyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31667C1AA1D42C00DAA96F /* Hieroglyph.swift */; };
+		6BA219EE1AA618FD005E9C9F /* KanaServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA219ED1AA618FD005E9C9F /* KanaServiceTests.swift */; };
+		6BA219EF1AA61902005E9C9F /* KanaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31151A1A977CFA00C790B8 /* KanaService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,13 +40,14 @@
 		6B3115011A97799700C790B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6B31150A1A97799800C790B8 /* KanaProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanaProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B31150F1A97799800C790B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B3115101A97799800C790B8 /* KanaProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaProjectTests.swift; sourceTree = "<group>"; };
+		6B3115101A97799800C790B8 /* HieroglyphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HieroglyphTests.swift; sourceTree = "<group>"; };
 		6B31151A1A977CFA00C790B8 /* KanaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KanaService.swift; path = Services/KanaService.swift; sourceTree = "<group>"; };
 		6B31151C1A97809D00C790B8 /* Katakana.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Katakana.plist; sourceTree = "<group>"; };
 		6B31151E1A9780A600C790B8 /* Hiragana.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Hiragana.plist; sourceTree = "<group>"; };
-		6B3115201A97847500C790B8 /* KanaGuessController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaGuessController.swift; sourceTree = "<group>"; };
-		6B31667A1AA11A1B00DAA96F /* KanaSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaSelectionViewController.swift; sourceTree = "<group>"; };
 		6B31667C1AA1D42C00DAA96F /* Hieroglyph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hieroglyph.swift; path = Data/Hieroglyph.swift; sourceTree = "<group>"; };
+		6BA219E61AA6176A005E9C9F /* KanaGuessController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KanaGuessController.swift; path = ViewControllers/KanaGuessController.swift; sourceTree = "<group>"; };
+		6BA219E71AA6176A005E9C9F /* KanaSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KanaSelectionViewController.swift; path = ViewControllers/KanaSelectionViewController.swift; sourceTree = "<group>"; };
+		6BA219ED1AA618FD005E9C9F /* KanaServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,16 +89,13 @@
 		6B3114F71A97799700C790B8 /* KanaProject */ = {
 			isa = PBXGroup;
 			children = (
-				6B31151E1A9780A600C790B8 /* Hiragana.plist */,
+				6BA219EB1AA6179A005E9C9F /* Services */,
+				6BA219EA1AA6178F005E9C9F /* Data */,
+				6BA219E51AA6171F005E9C9F /* ViewControllers */,
 				6B3114FA1A97799700C790B8 /* AppDelegate.swift */,
 				6B3114FE1A97799700C790B8 /* Main.storyboard */,
-				6B31151C1A97809D00C790B8 /* Katakana.plist */,
 				6B3115011A97799700C790B8 /* Images.xcassets */,
 				6B3114F81A97799700C790B8 /* Supporting Files */,
-				6B31151A1A977CFA00C790B8 /* KanaService.swift */,
-				6B3115201A97847500C790B8 /* KanaGuessController.swift */,
-				6B31667A1AA11A1B00DAA96F /* KanaSelectionViewController.swift */,
-				6B31667C1AA1D42C00DAA96F /* Hieroglyph.swift */,
 			);
 			path = KanaProject;
 			sourceTree = "<group>";
@@ -102,6 +103,8 @@
 		6B3114F81A97799700C790B8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6B31151C1A97809D00C790B8 /* Katakana.plist */,
+				6B31151E1A9780A600C790B8 /* Hiragana.plist */,
 				6B3114F91A97799700C790B8 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,7 +113,8 @@
 		6B31150D1A97799800C790B8 /* KanaProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				6B3115101A97799800C790B8 /* KanaProjectTests.swift */,
+				6B3115101A97799800C790B8 /* HieroglyphTests.swift */,
+				6BA219ED1AA618FD005E9C9F /* KanaServiceTests.swift */,
 				6B31150E1A97799800C790B8 /* Supporting Files */,
 			);
 			path = KanaProjectTests;
@@ -122,6 +126,31 @@
 				6B31150F1A97799800C790B8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BA219E51AA6171F005E9C9F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6BA219E61AA6176A005E9C9F /* KanaGuessController.swift */,
+				6BA219E71AA6176A005E9C9F /* KanaSelectionViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6BA219EA1AA6178F005E9C9F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6B31667C1AA1D42C00DAA96F /* Hieroglyph.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		6BA219EB1AA6179A005E9C9F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6B31151A1A977CFA00C790B8 /* KanaService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,10 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B31667B1AA11A1B00DAA96F /* KanaSelectionViewController.swift in Sources */,
 				6B31667D1AA1D42C00DAA96F /* Hieroglyph.swift in Sources */,
 				6B31151B1A977CFA00C790B8 /* KanaService.swift in Sources */,
-				6B3115211A97847500C790B8 /* KanaGuessController.swift in Sources */,
+				6BA219E91AA6176A005E9C9F /* KanaSelectionViewController.swift in Sources */,
+				6BA219E81AA6176A005E9C9F /* KanaGuessController.swift in Sources */,
 				6B3114FB1A97799700C790B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,7 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B3115111A97799800C790B8 /* KanaProjectTests.swift in Sources */,
+				6BA219EF1AA61902005E9C9F /* KanaService.swift in Sources */,
+				6BA219EC1AA617B2005E9C9F /* Hieroglyph.swift in Sources */,
+				6B3115111A97799800C790B8 /* HieroglyphTests.swift in Sources */,
+				6BA219EE1AA618FD005E9C9F /* KanaServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,10 +6,6 @@
 //  Copyright (c) 2015 Aejis. All rights reserved.
 //
 
-enum KanaType {
-    case Hiragana, Katakana
-}
-
 import UIKit
 
 @UIApplicationMain

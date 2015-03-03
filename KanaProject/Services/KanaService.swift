@@ -8,6 +8,10 @@
 
 import Foundation
 
+enum KanaType {
+    case Hiragana, Katakana
+}
+
 class KanaService: NSObject {
     
     class func generateRandoms(count:Int, upperBound:Int) -> [Int] {
