@@ -1,0 +1,63 @@
+{
+  "images" : [
+    {
+      "idiom" : "iphone",
+      "scale" : "1x",
+      "filename" : "BackgroundVertical@3x.jpg"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "filename" : "BackgroundVertical@3x-1.jpg"
+    },
+    {
+      "idiom" : "iphone",
+      "scale" : "3x",
+      "filename" : "BackgroundVertical@3x-2.jpg"
+    },
+    {
+      "heightClass" : "compact",
+      "idiom" : "iphone",
+      "filename" : "Bamboo_Zen_by_MissNysha.jpg",
+      "scale" : "1x"
+    },
+    {
+      "heightClass" : "compact",
+      "idiom" : "iphone",
+      "filename" : "Bamboo_Zen_by_MissNysha-1.jpg",
+      "scale" : "2x"
+    },
+    {
+      "heightClass" : "compact",
+      "idiom" : "iphone",
+      "filename" : "Bamboo_Zen_by_MissNysha-2.jpg",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "filename" : "ipad.jpg"
+    },
+    {
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "filename" : "ipad-1.jpg"
+    },
+    {
+      "heightClass" : "compact",
+      "idiom" : "ipad",
+      "filename" : "ipad-2.jpg",
+      "scale" : "1x"
+    },
+    {
+      "heightClass" : "compact",
+      "idiom" : "ipad",
+      "filename" : "ipad-3.jpg",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

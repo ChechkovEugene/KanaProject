@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B3114FB1A97799700C790B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3114FA1A97799700C790B8 /* AppDelegate.swift */; };
+		6B3115001A97799700C790B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B3114FE1A97799700C790B8 /* Main.storyboard */; };
+		6B3115021A97799700C790B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3115011A97799700C790B8 /* Images.xcassets */; };
+		6B3115111A97799800C790B8 /* KanaProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3115101A97799800C790B8 /* KanaProjectTests.swift */; };
+		6B31151B1A977CFA00C790B8 /* KanaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31151A1A977CFA00C790B8 /* KanaService.swift */; };
+		6B31151D1A97809D00C790B8 /* Katakana.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B31151C1A97809D00C790B8 /* Katakana.plist */; };
+		6B31151F1A9780A600C790B8 /* Hiragana.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6B31151E1A9780A600C790B8 /* Hiragana.plist */; };
+		6B3115211A97847500C790B8 /* KanaGuessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3115201A97847500C790B8 /* KanaGuessController.swift */; };
+		6B31667B1AA11A1B00DAA96F /* KanaSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31667A1AA11A1B00DAA96F /* KanaSelectionViewController.swift */; };
+		6B31667D1AA1D42C00DAA96F /* Hieroglyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31667C1AA1D42C00DAA96F /* Hieroglyph.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B31150B1A97799800C790B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B3114ED1A97799700C790B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3114F41A97799700C790B8;
+			remoteInfo = KanaProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B3114F51A97799700C790B8 /* KanaProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanaProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B3114F91A97799700C790B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B3114FA1A97799700C790B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B3114FF1A97799700C790B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B3115011A97799700C790B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6B31150A1A97799800C790B8 /* KanaProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KanaProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B31150F1A97799800C790B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B3115101A97799800C790B8 /* KanaProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaProjectTests.swift; sourceTree = "<group>"; };
+		6B31151A1A977CFA00C790B8 /* KanaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KanaService.swift; path = Services/KanaService.swift; sourceTree = "<group>"; };
+		6B31151C1A97809D00C790B8 /* Katakana.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Katakana.plist; sourceTree = "<group>"; };
+		6B31151E1A9780A600C790B8 /* Hiragana.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Hiragana.plist; sourceTree = "<group>"; };
+		6B3115201A97847500C790B8 /* KanaGuessController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaGuessController.swift; sourceTree = "<group>"; };
+		6B31667A1AA11A1B00DAA96F /* KanaSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaSelectionViewController.swift; sourceTree = "<group>"; };
+		6B31667C1AA1D42C00DAA96F /* Hieroglyph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hieroglyph.swift; path = Data/Hieroglyph.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B3114F21A97799700C790B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B3115071A97799800C790B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B3114EC1A97799700C790B8 = {
+			isa = PBXGroup;
+			children = (
+				6B3114F71A97799700C790B8 /* KanaProject */,
+				6B31150D1A97799800C790B8 /* KanaProjectTests */,
+				6B3114F61A97799700C790B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B3114F61A97799700C790B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B3114F51A97799700C790B8 /* KanaProject.app */,
+				6B31150A1A97799800C790B8 /* KanaProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B3114F71A97799700C790B8 /* KanaProject */ = {
+			isa = PBXGroup;
+			children = (
+				6B31151E1A9780A600C790B8 /* Hiragana.plist */,
+				6B3114FA1A97799700C790B8 /* AppDelegate.swift */,
+				6B3114FE1A97799700C790B8 /* Main.storyboard */,
+				6B31151C1A97809D00C790B8 /* Katakana.plist */,
+				6B3115011A97799700C790B8 /* Images.xcassets */,
+				6B3114F81A97799700C790B8 /* Supporting Files */,
+				6B31151A1A977CFA00C790B8 /* KanaService.swift */,
+				6B3115201A97847500C790B8 /* KanaGuessController.swift */,
+				6B31667A1AA11A1B00DAA96F /* KanaSelectionViewController.swift */,
+				6B31667C1AA1D42C00DAA96F /* Hieroglyph.swift */,
+			);
+			path = KanaProject;
+			sourceTree = "<group>";
+		};
+		6B3114F81A97799700C790B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B3114F91A97799700C790B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B31150D1A97799800C790B8 /* KanaProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B3115101A97799800C790B8 /* KanaProjectTests.swift */,
+				6B31150E1A97799800C790B8 /* Supporting Files */,
+			);
+			path = KanaProjectTests;
+			sourceTree = "<group>";
+		};
+		6B31150E1A97799800C790B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B31150F1A97799800C790B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B3114F41A97799700C790B8 /* KanaProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B3115141A97799800C790B8 /* Build configuration list for PBXNativeTarget "KanaProject" */;
+			buildPhases = (
+				6B3114F11A97799700C790B8 /* Sources */,
+				6B3114F21A97799700C790B8 /* Frameworks */,
+				6B3114F31A97799700C790B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KanaProject;
+			productName = KanaProject;
+			productReference = 6B3114F51A97799700C790B8 /* KanaProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B3115091A97799800C790B8 /* KanaProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B3115171A97799800C790B8 /* Build configuration list for PBXNativeTarget "KanaProjectTests" */;
+			buildPhases = (
+				6B3115061A97799800C790B8 /* Sources */,
+				6B3115071A97799800C790B8 /* Frameworks */,
+				6B3115081A97799800C790B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B31150C1A97799800C790B8 /* PBXTargetDependency */,
+			);
+			name = KanaProjectTests;
+			productName = KanaProjectTests;
+			productReference = 6B31150A1A97799800C790B8 /* KanaProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B3114ED1A97799700C790B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Aejis;
+				TargetAttributes = {
+					6B3114F41A97799700C790B8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = VQDQ88B5SC;
+					};
+					6B3115091A97799800C790B8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6B3114F41A97799700C790B8;
+					};
+				};
+			};
+			buildConfigurationList = 6B3114F01A97799700C790B8 /* Build configuration list for PBXProject "KanaProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B3114EC1A97799700C790B8;
+			productRefGroup = 6B3114F61A97799700C790B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B3114F41A97799700C790B8 /* KanaProject */,
+				6B3115091A97799800C790B8 /* KanaProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B3114F31A97799700C790B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B31151D1A97809D00C790B8 /* Katakana.plist in Resources */,
+				6B3115001A97799700C790B8 /* Main.storyboard in Resources */,
+				6B31151F1A9780A600C790B8 /* Hiragana.plist in Resources */,
+				6B3115021A97799700C790B8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B3115081A97799800C790B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B3114F11A97799700C790B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B31667B1AA11A1B00DAA96F /* KanaSelectionViewController.swift in Sources */,
+				6B31667D1AA1D42C00DAA96F /* Hieroglyph.swift in Sources */,
+				6B31151B1A977CFA00C790B8 /* KanaService.swift in Sources */,
+				6B3115211A97847500C790B8 /* KanaGuessController.swift in Sources */,
+				6B3114FB1A97799700C790B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B3115061A97799800C790B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B3115111A97799800C790B8 /* KanaProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B31150C1A97799800C790B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B3114F41A97799700C790B8 /* KanaProject */;
+			targetProxy = 6B31150B1A97799800C790B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B3114FE1A97799700C790B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B3114FF1A97799700C790B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B3115121A97799800C790B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B3115131A97799800C790B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B3115151A97799800C790B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = KanaProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		6B3115161A97799800C790B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = KanaProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		6B3115181A97799800C790B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KanaProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanaProject.app/KanaProject";
+			};
+			name = Debug;
+		};
+		6B3115191A97799800C790B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KanaProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanaProject.app/KanaProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B3114F01A97799700C790B8 /* Build configuration list for PBXProject "KanaProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B3115121A97799800C790B8 /* Debug */,
+				6B3115131A97799800C790B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B3115141A97799800C790B8 /* Build configuration list for PBXNativeTarget "KanaProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B3115151A97799800C790B8 /* Debug */,
+				6B3115161A97799800C790B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B3115171A97799800C790B8 /* Build configuration list for PBXNativeTarget "KanaProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B3115181A97799800C790B8 /* Debug */,
+				6B3115191A97799800C790B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B3114ED1A97799700C790B8 /* Project object */;
+}
