@@ -3,7 +3,7 @@
 //  KanaProject
 //
 //  Created by Eugene Chechkov on 2/20/15.
-//  Copyright (c) 2015 Aejis. All rights reserved.
+//  Copyright (c) 2015 Eugene Chechkov. All rights reserved.
 //
 
 import Foundation
@@ -19,9 +19,9 @@ class KanaService: NSObject {
         var shuffle:[Int] = []
         
         while (shuffle.count < count) {
-            var num = KanaService.generateRandomNumberWithUpperBound(upperBound)
+            let num = KanaService.generateRandomNumberWithUpperBound(upperBound)
     
-            if (!contains(shuffle, num)) {
+            if (!shuffle.contains(num)) {
                shuffle.append(num)
             }
         }
@@ -47,7 +47,7 @@ class KanaService: NSObject {
             if let hierosList = NSArray(contentsOfFile: path) as? [[String:AnyObject]] {
                 var hieros:[Hieroglyph] = []
                 for hieroElement in hierosList {
-                    let hiero = Hieroglyph(code: hieroElement["Code"] as Int, name: hieroElement["Name"] as String)
+                    let hiero = Hieroglyph(code: hieroElement["Code"] as! Int, name: hieroElement["Name"] as! String)
                     hieros.append(hiero)
                 }
                 return hieros

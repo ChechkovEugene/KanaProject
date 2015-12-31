@@ -3,7 +3,7 @@
 //  KanaProject
 //
 //  Created by Eugene Chechkov on 2/20/15.
-//  Copyright (c) 2015 Aejis. All rights reserved.
+//  Copyright (c) 2015 Eugene Chechkov. All rights reserved.
 //
 
 import UIKit
@@ -116,28 +116,14 @@ class KanaGuessController: UIViewController {
                 break;
         }
         if btnType != nil {
-            giveAnswer(btnType, sender: sender as UIButton)
+            giveAnswer(btnType, sender: sender as! UIButton)
         }
     }
 
     func giveAnswer(button: AnswerButtonType?, sender: UIButton){
         
         questionNumber++
-        
-        var trueButton: UIButton?
-        switch(self.trueIndex!){
-        case 0:
-            trueButton = self.answer1Btn
-        case 1:
-            trueButton = self.answer2Btn
-        case 2:
-            trueButton = self.answer3Btn
-        case 3:
-            trueButton = self.answer4Btn
-        default:
-            break;
-        }
- 
+
         if trueIndex == button!.rawValue {
             rightAnswers++
             rightAnswersCount.text = "\(rightAnswers)"
@@ -174,7 +160,7 @@ class KanaGuessController: UIViewController {
             messageText = messageText + "You can do it better. Please try again."
         }
         
-        var alertView = UIAlertController(title: nil, message: messageText, preferredStyle: UIAlertControllerStyle.Alert)
+        let alertView = UIAlertController(title: nil, message: messageText, preferredStyle: UIAlertControllerStyle.Alert)
         alertView.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Cancel, handler: {[unowned self](UIAlertAction) in
             
             self.questionNumber = 0

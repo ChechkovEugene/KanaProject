@@ -3,7 +3,7 @@
 //  KanaProjectTests
 //
 //  Created by Eugene Chechkov on 2/20/15.
-//  Copyright (c) 2015 Aejis. All rights reserved.
+//  Copyright (c) 2015 Eugene Chechkov. All rights reserved.
 //
 
 import XCTest
