@@ -9,12 +9,12 @@
 import Foundation
 
 enum KanaType {
-    case Hiragana, Katakana
+    case hiragana, katakana
 }
 
 class KanaService: NSObject {
     
-    class func generateRandoms(count:Int, upperBound:Int) -> [Int] {
+    class func generateRandoms(_ count:Int, upperBound:Int) -> [Int] {
         
         var shuffle:[Int] = []
         
@@ -29,7 +29,7 @@ class KanaService: NSObject {
         return shuffle;
     }
     
-    class func generateRandomNumberWithUpperBound(bound:Int) -> Int {
+    class func generateRandomNumberWithUpperBound(_ bound:Int) -> Int {
        
         let low_bound = 0;
         let high_bound = bound;
@@ -39,11 +39,11 @@ class KanaService: NSObject {
         return randomNumber;
     }
     
-    class func loadHierosFromFile(type: KanaType) ->[Hieroglyph]? {
+    class func loadHierosFromFile(_ type: KanaType) ->[Hieroglyph]? {
         
-        let resName = type == .Hiragana ? "Hiragana": "Katakana"
+        let resName = type == .hiragana ? "Hiragana": "Katakana"
         
-        if let path = NSBundle.mainBundle().pathForResource(resName, ofType: "plist") {
+        if let path = Bundle.main.path(forResource: resName, ofType: "plist") {
             if let hierosList = NSArray(contentsOfFile: path) as? [[String:AnyObject]] {
                 var hieros:[Hieroglyph] = []
                 for hieroElement in hierosList {

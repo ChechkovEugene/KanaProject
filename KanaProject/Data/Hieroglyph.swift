@@ -12,7 +12,7 @@ class Hieroglyph: NSObject {
     let code: Int
     let name: String
     
-    private override convenience init() {
+    fileprivate override convenience init() {
         self.init(code:-1, name:"noname")
     }
     

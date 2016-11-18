@@ -11,7 +11,7 @@ import UIKit
 class KanaGuessController: UIViewController {
 
     enum AnswerButtonType: Int{
-        case Button1 = 0, Button2 = 1, Button3 = 2 , Button4 = 3
+        case button1 = 0, button2 = 1, button3 = 2 , button4 = 3
     }
     
     let backgroundImagesCount = 1
@@ -38,7 +38,7 @@ class KanaGuessController: UIViewController {
     
     var kanaType: KanaType? {
         didSet {
-            if(self.isViewLoaded()){
+            if(self.isViewLoaded){
                 regenerateHierogliph()
             }
         }
@@ -46,10 +46,10 @@ class KanaGuessController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.hidden = true
+        self.navigationController?.navigationBar.isHidden = true
         self.hieroglyphLbl.adjustsFontSizeToFitWidth = true
    
-        if UIDevice.currentDevice().userInterfaceIdiom == UIUserInterfaceIdiom.Pad {
+        if UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.pad {
             self.rightAnswersCount.font = UIFont(name: "Zapfino", size: 45.0)
             self.wrongAnswersCount.font = UIFont(name: "Zapfino", size: 45.0)
         } else {
@@ -68,9 +68,9 @@ class KanaGuessController: UIViewController {
         color = self.hieroglyphLbl.textColor
     }
     
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.navigationController?.navigationBar.hidden = false
+        self.navigationController?.navigationBar.isHidden = false
     }
     
     func loadHieroglyphsFromFile(){
@@ -92,26 +92,26 @@ class KanaGuessController: UIViewController {
             
             self.hieroglyphLbl.text = "\(UnicodeScalar(hiero.code))"
             
-            self.answer1Btn.setTitle(hieros?[generatedNumbersArray[0]].name, forState: .Normal)
-            self.answer2Btn.setTitle(hieros?[generatedNumbersArray[1]].name, forState: .Normal)
-            self.answer3Btn.setTitle(hieros?[generatedNumbersArray[2]].name, forState: .Normal)
-            self.answer4Btn.setTitle(hieros?[generatedNumbersArray[3]].name, forState: .Normal)
+            self.answer1Btn.setTitle(hieros?[generatedNumbersArray[0]].name, for: UIControlState())
+            self.answer2Btn.setTitle(hieros?[generatedNumbersArray[1]].name, for: UIControlState())
+            self.answer3Btn.setTitle(hieros?[generatedNumbersArray[2]].name, for: UIControlState())
+            self.answer4Btn.setTitle(hieros?[generatedNumbersArray[3]].name, for: UIControlState())
         }
     }
     
-    @IBAction func giveAnswer(sender: AnyObject) {
+    @IBAction func giveAnswer(_ sender: AnyObject) {
         
         var btnType: AnswerButtonType?
         
         switch(sender){
             case self.answer1Btn as UIButton:
-                btnType = AnswerButtonType.Button1
+                btnType = AnswerButtonType.button1
             case self.answer2Btn as UIButton:
-                btnType = AnswerButtonType.Button2
+                btnType = AnswerButtonType.button2
             case self.answer3Btn as UIButton:
-                btnType = AnswerButtonType.Button3
+                btnType = AnswerButtonType.button3
             case self.answer4Btn as UIButton:
-                btnType = AnswerButtonType.Button4
+                btnType = AnswerButtonType.button4
             default:
                 break;
         }
@@ -120,15 +120,15 @@ class KanaGuessController: UIViewController {
         }
     }
 
-    func giveAnswer(button: AnswerButtonType?, sender: UIButton){
+    func giveAnswer(_ button: AnswerButtonType?, sender: UIButton){
         
-        questionNumber++
+        questionNumber += 1
 
         if trueIndex == button!.rawValue {
-            rightAnswers++
+            rightAnswers += 1
             rightAnswersCount.text = "\(rightAnswers)"
         } else {
-            wrongAnswers++
+            wrongAnswers += 1
             wrongAnswersCount.text = "\(wrongAnswers)"
         }
         
@@ -160,8 +160,8 @@ class KanaGuessController: UIViewController {
             messageText = messageText + "You can do it better. Please try again."
         }
         
-        let alertView = UIAlertController(title: nil, message: messageText, preferredStyle: UIAlertControllerStyle.Alert)
-        alertView.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Cancel, handler: {[unowned self](UIAlertAction) in
+        let alertView = UIAlertController(title: nil, message: messageText, preferredStyle: UIAlertControllerStyle.alert)
+        alertView.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.cancel, handler: {[unowned self](UIAlertAction) in
             
             self.questionNumber = 0
             self.rightAnswers = 0
@@ -172,7 +172,7 @@ class KanaGuessController: UIViewController {
             self.regenerateHierogliph()
             
         }))
-        self.presentViewController(alertView, animated: true, completion: nil)
+        self.present(alertView, animated: true, completion: nil)
     }
 
     func changeBackgroundRandom(){
