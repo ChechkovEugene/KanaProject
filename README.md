@@ -1,0 +1,2 @@
+# KanaProject
+Kana Project app
