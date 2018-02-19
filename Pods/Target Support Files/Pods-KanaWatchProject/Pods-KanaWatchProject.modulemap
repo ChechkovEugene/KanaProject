@@ -1,0 +1,6 @@
+framework module Pods_KanaWatchProject {
+  umbrella header "Pods-KanaWatchProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B4E18DAF1658034CE5A95B9 /* Pods_KanaWatchProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D7A4C3909237B611CDCD27 /* Pods_KanaWatchProject.framework */; };
 		6B3114FB1A97799700C790B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3114FA1A97799700C790B8 /* AppDelegate.swift */; };
 		6B3115001A97799700C790B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B3114FE1A97799700C790B8 /* Main.storyboard */; };
 		6B3115021A97799700C790B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B3115011A97799700C790B8 /* Images.xcassets */; };
@@ -20,6 +21,9 @@
 		6BA219EC1AA617B2005E9C9F /* Hieroglyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31667C1AA1D42C00DAA96F /* Hieroglyph.swift */; };
 		6BA219EE1AA618FD005E9C9F /* KanaServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA219ED1AA618FD005E9C9F /* KanaServiceTests.swift */; };
 		6BA219EF1AA61902005E9C9F /* KanaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31151A1A977CFA00C790B8 /* KanaService.swift */; };
+		B756EAEF7CC88381945D9A0C /* Pods_KanaWatchProject_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795E24A665E2CECD7F4D0821 /* Pods_KanaWatchProject_Extension.framework */; };
+		C59B9C7E31D61675B7496965 /* Pods_KanaProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCB816F26599DF802EAB25D /* Pods_KanaProjectTests.framework */; };
+		D7E6A1CBA0DDEBAE91A83573 /* Pods_KanaProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCB0FAD63841F986FEF88B8 /* Pods_KanaProject.framework */; };
 		F8B3D2201DDF68D0005382B7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B3D21E1DDF68D0005382B7 /* Interface.storyboard */; };
 		F8B3D2221DDF68D0005382B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B3D2211DDF68D0005382B7 /* Assets.xcassets */; };
 		F8B3D2291DDF68D2005382B7 /* KanaWatchProject Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F8B3D2281DDF68D0005382B7 /* KanaWatchProject Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -80,6 +84,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		02378E0D31C404457A7A6D1A /* Pods-KanaWatchProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanaWatchProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-KanaWatchProject/Pods-KanaWatchProject.release.xcconfig"; sourceTree = "<group>"; };
+		10A6349786C1A9FEB764415F /* Pods-KanaWatchProject Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanaWatchProject Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KanaWatchProject Extension/Pods-KanaWatchProject Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		18E8EFCA9B3B463F2F999D5F /* Pods-KanaWatchProject Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanaWatchProject Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-KanaWatchProject Extension/Pods-KanaWatchProject Extension.release.xcconfig"; sourceTree = "<group>"; };
+		39C0ED339D97A74895564CCE /* Pods-KanaProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanaProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-KanaProject/Pods-KanaProject.release.xcconfig"; sourceTree = "<group>"; };
+		4BCB816F26599DF802EAB25D /* Pods_KanaProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanaProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3114F51A97799700C790B8 /* KanaProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanaProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3114F91A97799700C790B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B3114FA1A97799700C790B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +104,13 @@
 		6BA219E61AA6176A005E9C9F /* KanaGuessController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KanaGuessController.swift; path = ViewControllers/KanaGuessController.swift; sourceTree = "<group>"; };
 		6BA219E71AA6176A005E9C9F /* KanaSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KanaSelectionViewController.swift; path = ViewControllers/KanaSelectionViewController.swift; sourceTree = "<group>"; };
 		6BA219ED1AA618FD005E9C9F /* KanaServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaServiceTests.swift; sourceTree = "<group>"; };
+		73D7A4C3909237B611CDCD27 /* Pods_KanaWatchProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanaWatchProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		795E24A665E2CECD7F4D0821 /* Pods_KanaWatchProject_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanaWatchProject_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC5664367DE42399C48C5D9 /* Pods-KanaProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanaProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KanaProject/Pods-KanaProject.debug.xcconfig"; sourceTree = "<group>"; };
+		8C588BEFFB67FAFBB035FE39 /* Pods-KanaProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanaProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KanaProjectTests/Pods-KanaProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFCB0FAD63841F986FEF88B8 /* Pods_KanaProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanaProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7D2D9D540E678947C6F690 /* Pods-KanaProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanaProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KanaProjectTests/Pods-KanaProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1BB30BD16826F8DEFC3705C /* Pods-KanaWatchProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanaWatchProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KanaWatchProject/Pods-KanaWatchProject.debug.xcconfig"; sourceTree = "<group>"; };
 		F8B3D21C1DDF68CF005382B7 /* KanaWatchProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanaWatchProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B3D21F1DDF68D0005382B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		F8B3D2211DDF68D0005382B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -113,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E6A1CBA0DDEBAE91A83573 /* Pods_KanaProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +137,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C59B9C7E31D61675B7496965 /* Pods_KanaProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1ED53D83218C1B4CCB44752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4E18DAF1658034CE5A95B9 /* Pods_KanaWatchProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B756EAEF7CC88381945D9A0C /* Pods_KanaWatchProject_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +168,8 @@
 				F8B3D21D1DDF68D0005382B7 /* KanaWatchProject */,
 				F8B3D22C1DDF68D2005382B7 /* KanaWatchProject Extension */,
 				6B3114F61A97799700C790B8 /* Products */,
+				D6B9CA8100E29B524CF18008 /* Pods */,
+				91867C668550E70E0464EEFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -222,6 +251,32 @@
 			name = Services;
 			sourceTree = "<group>";
 		};
+		91867C668550E70E0464EEFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFCB0FAD63841F986FEF88B8 /* Pods_KanaProject.framework */,
+				4BCB816F26599DF802EAB25D /* Pods_KanaProjectTests.framework */,
+				73D7A4C3909237B611CDCD27 /* Pods_KanaWatchProject.framework */,
+				795E24A665E2CECD7F4D0821 /* Pods_KanaWatchProject_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6B9CA8100E29B524CF18008 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FC5664367DE42399C48C5D9 /* Pods-KanaProject.debug.xcconfig */,
+				39C0ED339D97A74895564CCE /* Pods-KanaProject.release.xcconfig */,
+				DE7D2D9D540E678947C6F690 /* Pods-KanaProjectTests.debug.xcconfig */,
+				8C588BEFFB67FAFBB035FE39 /* Pods-KanaProjectTests.release.xcconfig */,
+				E1BB30BD16826F8DEFC3705C /* Pods-KanaWatchProject.debug.xcconfig */,
+				02378E0D31C404457A7A6D1A /* Pods-KanaWatchProject.release.xcconfig */,
+				10A6349786C1A9FEB764415F /* Pods-KanaWatchProject Extension.debug.xcconfig */,
+				18E8EFCA9B3B463F2F999D5F /* Pods-KanaWatchProject Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F8B3D21D1DDF68D0005382B7 /* KanaWatchProject */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,10 +315,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B3115141A97799800C790B8 /* Build configuration list for PBXNativeTarget "KanaProject" */;
 			buildPhases = (
+				84550F11465A85559C06EE02 /* [CP] Check Pods Manifest.lock */,
 				6B3114F11A97799700C790B8 /* Sources */,
 				6B3114F21A97799700C790B8 /* Frameworks */,
 				6B3114F31A97799700C790B8 /* Resources */,
 				F8B3D2421DDF68D3005382B7 /* Embed Watch Content */,
+				796066C91DA25C80EBB143F3 /* [CP] Embed Pods Frameworks */,
+				69150F37091862515B314BB2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,9 +337,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B3115171A97799800C790B8 /* Build configuration list for PBXNativeTarget "KanaProjectTests" */;
 			buildPhases = (
+				6EB0552C5B1D0803DB53C025 /* [CP] Check Pods Manifest.lock */,
 				6B3115061A97799800C790B8 /* Sources */,
 				6B3115071A97799800C790B8 /* Frameworks */,
 				6B3115081A97799800C790B8 /* Resources */,
+				DF22AE490B99097B16C08CCF /* [CP] Embed Pods Frameworks */,
+				7CEDCD1BA4788F932E082851 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,8 +358,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8B3D23F1DDF68D3005382B7 /* Build configuration list for PBXNativeTarget "KanaWatchProject" */;
 			buildPhases = (
+				A6B24C33BAD4E54A8B0EB534 /* [CP] Check Pods Manifest.lock */,
 				F8B3D21A1DDF68CF005382B7 /* Resources */,
 				F8B3D23E1DDF68D3005382B7 /* Embed App Extensions */,
+				F1ED53D83218C1B4CCB44752 /* Frameworks */,
+				3D9B01D9DD6778FCB05C8CD6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -314,9 +378,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8B3D23B1DDF68D3005382B7 /* Build configuration list for PBXNativeTarget "KanaWatchProject Extension" */;
 			buildPhases = (
+				677DB11781BBDFB0590D7451 /* [CP] Check Pods Manifest.lock */,
 				F8B3D2241DDF68D0005382B7 /* Sources */,
 				F8B3D2251DDF68D0005382B7 /* Frameworks */,
 				F8B3D2261DDF68D0005382B7 /* Resources */,
+				870CFB47345E369D22E1AEFE /* [CP] Embed Pods Frameworks */,
+				A21875664BD7C084F8A51592 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -419,6 +486,174 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D9B01D9DD6778FCB05C8CD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanaWatchProject/Pods-KanaWatchProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		677DB11781BBDFB0590D7451 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69150F37091862515B314BB2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanaProject/Pods-KanaProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EB0552C5B1D0803DB53C025 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		796066C91DA25C80EBB143F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanaProject/Pods-KanaProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CEDCD1BA4788F932E082851 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanaProjectTests/Pods-KanaProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84550F11465A85559C06EE02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		870CFB47345E369D22E1AEFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanaWatchProject Extension/Pods-KanaWatchProject Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A21875664BD7C084F8A51592 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanaWatchProject Extension/Pods-KanaWatchProject Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6B24C33BAD4E54A8B0EB534 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF22AE490B99097B16C08CCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KanaProjectTests/Pods-KanaProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6B3114F11A97799700C790B8 /* Sources */ = {
@@ -597,6 +832,7 @@
 		};
 		6B3115151A97799800C790B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC5664367DE42399C48C5D9 /* Pods-KanaProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -613,6 +849,7 @@
 		};
 		6B3115161A97799800C790B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C0ED339D97A74895564CCE /* Pods-KanaProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -629,6 +866,7 @@
 		};
 		6B3115181A97799800C790B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7D2D9D540E678947C6F690 /* Pods-KanaProjectTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -647,6 +885,7 @@
 		};
 		6B3115191A97799800C790B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C588BEFFB67FAFBB035FE39 /* Pods-KanaProjectTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -661,6 +900,7 @@
 		};
 		F8B3D23C1DDF68D3005382B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A6349786C1A9FEB764415F /* Pods-KanaWatchProject Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -684,6 +924,7 @@
 		};
 		F8B3D23D1DDF68D3005382B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18E8EFCA9B3B463F2F999D5F /* Pods-KanaWatchProject Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -707,6 +948,7 @@
 		};
 		F8B3D2401DDF68D3005382B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1BB30BD16826F8DEFC3705C /* Pods-KanaWatchProject.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -732,6 +974,7 @@
 		};
 		F8B3D2411DDF68D3005382B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02378E0D31C404457A7A6D1A /* Pods-KanaWatchProject.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

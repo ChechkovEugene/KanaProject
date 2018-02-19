@@ -1,0 +1,6 @@
+framework module Pods_KanaProjectTests {
+  umbrella header "Pods-KanaProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

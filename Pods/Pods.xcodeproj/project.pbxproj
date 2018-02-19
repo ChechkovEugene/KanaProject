@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ABEC9C31CFA02DDB732DF0462933EFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7752798AED75D2190758A21548AB728 /* Foundation.framework */; };
+		1CB000E9A0AE439025961AA0D351195C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7752798AED75D2190758A21548AB728 /* Foundation.framework */; };
+		1CC9D7146E4337EBB6D736AC6161CC70 /* Pods-KanaProjectTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4EC9D48D5E42A56040A76A0B9F8BD4E /* Pods-KanaProjectTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E0A500CBF64F829398C526AB806A77E /* Pods-KanaProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE33F3A37D184CB12344BEFE06B1023 /* Pods-KanaProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AB1FA8247B21EEE681E047B8D5147D0 /* Pods-KanaProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1CAD0705E7699E77F34F8C373216A4 /* Pods-KanaProjectTests-dummy.m */; };
+		55E337FC68F215C9AFEF3D7DEB353119 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AE61DEB7F70B8D5B09290911F0E1C8 /* Foundation.framework */; };
+		9D4B79C75C7879E919C2E63463E43CDD /* Pods-KanaWatchProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59CF1D0A637792BF28CA549FACF6B9BF /* Pods-KanaWatchProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF8D272DCCDA62F4A1D9DAA1D82F0ED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AE61DEB7F70B8D5B09290911F0E1C8 /* Foundation.framework */; };
+		B18EE35D76C22F75A0FFF57EFD7B5114 /* Pods-KanaWatchProject Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BA70C55E0E967C6012311FF27352D2 /* Pods-KanaWatchProject Extension-dummy.m */; };
+		DC639E9772BEAAD0A9F5627BCE9152DD /* Pods-KanaProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A246C865F11612634AED2F6547D8D8 /* Pods-KanaProject-dummy.m */; };
+		EBB39BDCF8FF1A79CD9265AF6254B301 /* Pods-KanaWatchProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE33995E88270610393281CC176D4E52 /* Pods-KanaWatchProject-dummy.m */; };
+		FA6ABC2445A1C23E328AE45F536B2DD2 /* Pods-KanaWatchProject Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A04B03B8FA0716F0E54B1BD8D012BAAB /* Pods-KanaWatchProject Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		020ED2ABC6E261748E571556FA445395 /* Pods-KanaWatchProject Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KanaWatchProject Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		0B49F5D2C880B06A7FC22F608736885E /* Pods_KanaProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KanaProjectTests.framework; path = "Pods-KanaProjectTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		108AB0F5B40F921E8944B3FAB9B78406 /* Pods-KanaProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KanaProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2000B8219942D326894F8D4DA3E92271 /* Pods-KanaWatchProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KanaWatchProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		24A3025C4AF1F0E422CA265BA1982AC2 /* Pods-KanaWatchProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KanaWatchProject-resources.sh"; sourceTree = "<group>"; };
+		2DE33F3A37D184CB12344BEFE06B1023 /* Pods-KanaProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KanaProject-umbrella.h"; sourceTree = "<group>"; };
+		37F0C267C71196A7FFB0057CBAC1D026 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478C6E58F9DD95D03693D69546F6223D /* Pods-KanaWatchProject Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KanaWatchProject Extension.release.xcconfig"; sourceTree = "<group>"; };
+		48E1A6B1DA99924157D279A1E4200EBF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F30297162C5C1E55C1193284CFF7A46 /* Pods-KanaWatchProject Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KanaWatchProject Extension-resources.sh"; sourceTree = "<group>"; };
+		5046D612B2FE13E92AB45ABD2A363A62 /* Pods-KanaProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KanaProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		59CF1D0A637792BF28CA549FACF6B9BF /* Pods-KanaWatchProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KanaWatchProject-umbrella.h"; sourceTree = "<group>"; };
+		5A5403FB25D1A9A8798ECED2A9FA2DBF /* Pods-KanaWatchProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KanaWatchProject.modulemap"; sourceTree = "<group>"; };
+		617DE64B2571022A8A5660A1937F8093 /* Pods-KanaProjectTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KanaProjectTests-resources.sh"; sourceTree = "<group>"; };
+		61D7C1E19E5283DB81CC3840540FE943 /* Pods-KanaProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KanaProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		662DC89DF422ACB643A423BAF93532E9 /* Pods_KanaProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KanaProject.framework; path = "Pods-KanaProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEA71752B171441DE9CE4B82BC8C660 /* Pods-KanaProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KanaProject-frameworks.sh"; sourceTree = "<group>"; };
+		712466EF2A6CBDD1C1C95B3DB6022C4F /* Pods-KanaProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KanaProject.debug.xcconfig"; sourceTree = "<group>"; };
+		736396A425D4E8ACB3A3566F30623C74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7720F022D6FAE9C34D9D4ADFCE6BF144 /* Pods-KanaProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KanaProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		797D4429B1D88783FF242EC35F25953A /* Pods-KanaProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KanaProject.release.xcconfig"; sourceTree = "<group>"; };
+		7D07405F40CEBD3A380C5C1A24472B88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815FA9BAFC58BB9DA76E12D5AB00FDD4 /* Pods-KanaWatchProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KanaWatchProject-frameworks.sh"; sourceTree = "<group>"; };
+		82F1E918670C959312E12856C151050F /* Pods-KanaWatchProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KanaWatchProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A8D6AB704DCB9C90F3E9FE2CB44243C /* Pods-KanaWatchProject Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KanaWatchProject Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B8F8899B70B790CE2AEFC553E8EF222 /* Pods-KanaProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KanaProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99BA70C55E0E967C6012311FF27352D2 /* Pods-KanaWatchProject Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KanaWatchProject Extension-dummy.m"; sourceTree = "<group>"; };
+		9E49A253003CB124DB5D27233EBB5169 /* Pods-KanaWatchProject Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KanaWatchProject Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A04B03B8FA0716F0E54B1BD8D012BAAB /* Pods-KanaWatchProject Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KanaWatchProject Extension-umbrella.h"; sourceTree = "<group>"; };
+		AB1CAD0705E7699E77F34F8C373216A4 /* Pods-KanaProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KanaProjectTests-dummy.m"; sourceTree = "<group>"; };
+		ABAE64AB733151CF40BBD71FE49BEDAE /* Pods-KanaProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KanaProject.modulemap"; sourceTree = "<group>"; };
+		B4A246C865F11612634AED2F6547D8D8 /* Pods-KanaProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KanaProject-dummy.m"; sourceTree = "<group>"; };
+		B4EC9D48D5E42A56040A76A0B9F8BD4E /* Pods-KanaProjectTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KanaProjectTests-umbrella.h"; sourceTree = "<group>"; };
+		B6066CFA8E61D323EAF2157EC01E1720 /* Pods-KanaWatchProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KanaWatchProject.release.xcconfig"; sourceTree = "<group>"; };
+		B7752798AED75D2190758A21548AB728 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BDEBCB66059BBD468CD98EEBF699D08E /* Pods-KanaWatchProject Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KanaWatchProject Extension.modulemap"; sourceTree = "<group>"; };
+		D498D8F4B7068E865701120F5B848D12 /* Pods-KanaProjectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KanaProjectTests.modulemap"; sourceTree = "<group>"; };
+		D5D3D1F920379D1A4940D96A0893C584 /* Pods_KanaWatchProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KanaWatchProject.framework; path = "Pods-KanaWatchProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7DA19D6795758775AA5833B9304E8AA /* Pods-KanaProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KanaProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9415C7A482CAC0C7CFD64DEDAE9A422 /* Pods-KanaWatchProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KanaWatchProject.debug.xcconfig"; sourceTree = "<group>"; };
+		E98E65FBEFDBBD6D73198FE0C0A79758 /* Pods-KanaProjectTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KanaProjectTests-frameworks.sh"; sourceTree = "<group>"; };
+		ED916A9D7152710D59980873AB892C10 /* Pods-KanaWatchProject Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KanaWatchProject Extension-frameworks.sh"; sourceTree = "<group>"; };
+		EDA762F19EB91F335463FF84FB72596D /* Pods_KanaWatchProject_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KanaWatchProject_Extension.framework; path = "Pods-KanaWatchProject Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE33995E88270610393281CC176D4E52 /* Pods-KanaWatchProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KanaWatchProject-dummy.m"; sourceTree = "<group>"; };
+		EF59EE315BFB9E6F4E950C6BF9B2B4BA /* Pods-KanaProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KanaProject-resources.sh"; sourceTree = "<group>"; };
+		F9AE61DEB7F70B8D5B09290911F0E1C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		136F84420ACB392DECF7CD05CBD44634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E337FC68F215C9AFEF3D7DEB353119 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D526CC40433C7364F579BA80D7351D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ABEC9C31CFA02DDB732DF0462933EFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C032321E0C5234A38B97FB66A3BE39D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB000E9A0AE439025961AA0D351195C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8DE1B96323359AE4545D8357A2C78C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF8D272DCCDA62F4A1D9DAA1D82F0ED6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040904B735FA519E045F3F1DDBA8452B /* Pods-KanaProject */ = {
+			isa = PBXGroup;
+			children = (
+				48E1A6B1DA99924157D279A1E4200EBF /* Info.plist */,
+				ABAE64AB733151CF40BBD71FE49BEDAE /* Pods-KanaProject.modulemap */,
+				108AB0F5B40F921E8944B3FAB9B78406 /* Pods-KanaProject-acknowledgements.markdown */,
+				E7DA19D6795758775AA5833B9304E8AA /* Pods-KanaProject-acknowledgements.plist */,
+				B4A246C865F11612634AED2F6547D8D8 /* Pods-KanaProject-dummy.m */,
+				6BEA71752B171441DE9CE4B82BC8C660 /* Pods-KanaProject-frameworks.sh */,
+				EF59EE315BFB9E6F4E950C6BF9B2B4BA /* Pods-KanaProject-resources.sh */,
+				2DE33F3A37D184CB12344BEFE06B1023 /* Pods-KanaProject-umbrella.h */,
+				712466EF2A6CBDD1C1C95B3DB6022C4F /* Pods-KanaProject.debug.xcconfig */,
+				797D4429B1D88783FF242EC35F25953A /* Pods-KanaProject.release.xcconfig */,
+			);
+			name = "Pods-KanaProject";
+			path = "Target Support Files/Pods-KanaProject";
+			sourceTree = "<group>";
+		};
+		0C7755769AD6D4BF4671BB07D894CDF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				662DC89DF422ACB643A423BAF93532E9 /* Pods_KanaProject.framework */,
+				0B49F5D2C880B06A7FC22F608736885E /* Pods_KanaProjectTests.framework */,
+				D5D3D1F920379D1A4940D96A0893C584 /* Pods_KanaWatchProject.framework */,
+				EDA762F19EB91F335463FF84FB72596D /* Pods_KanaWatchProject_Extension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38FDA668EDA206257A96C5BE63ED0B1F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				040904B735FA519E045F3F1DDBA8452B /* Pods-KanaProject */,
+				B71248B26281254188BCEE2E8193C7E9 /* Pods-KanaProjectTests */,
+				B92C6C167496C9B0973AB39B79C86147 /* Pods-KanaWatchProject */,
+				508601160673000EC903464D33452969 /* Pods-KanaWatchProject Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		508601160673000EC903464D33452969 /* Pods-KanaWatchProject Extension */ = {
+			isa = PBXGroup;
+			children = (
+				736396A425D4E8ACB3A3566F30623C74 /* Info.plist */,
+				BDEBCB66059BBD468CD98EEBF699D08E /* Pods-KanaWatchProject Extension.modulemap */,
+				9E49A253003CB124DB5D27233EBB5169 /* Pods-KanaWatchProject Extension-acknowledgements.markdown */,
+				8A8D6AB704DCB9C90F3E9FE2CB44243C /* Pods-KanaWatchProject Extension-acknowledgements.plist */,
+				99BA70C55E0E967C6012311FF27352D2 /* Pods-KanaWatchProject Extension-dummy.m */,
+				ED916A9D7152710D59980873AB892C10 /* Pods-KanaWatchProject Extension-frameworks.sh */,
+				4F30297162C5C1E55C1193284CFF7A46 /* Pods-KanaWatchProject Extension-resources.sh */,
+				A04B03B8FA0716F0E54B1BD8D012BAAB /* Pods-KanaWatchProject Extension-umbrella.h */,
+				020ED2ABC6E261748E571556FA445395 /* Pods-KanaWatchProject Extension.debug.xcconfig */,
+				478C6E58F9DD95D03693D69546F6223D /* Pods-KanaWatchProject Extension.release.xcconfig */,
+			);
+			name = "Pods-KanaWatchProject Extension";
+			path = "Target Support Files/Pods-KanaWatchProject Extension";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8F91EE078EA3977443D1BDC2601132EF /* Frameworks */,
+				0C7755769AD6D4BF4671BB07D894CDF7 /* Products */,
+				38FDA668EDA206257A96C5BE63ED0B1F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F91EE078EA3977443D1BDC2601132EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE50AB4B3645EA9432322BA2E72BE2F9 /* iOS */,
+				9880A75209637E3915A438772C6A676D /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9880A75209637E3915A438772C6A676D /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				B7752798AED75D2190758A21548AB728 /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		B71248B26281254188BCEE2E8193C7E9 /* Pods-KanaProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D07405F40CEBD3A380C5C1A24472B88 /* Info.plist */,
+				D498D8F4B7068E865701120F5B848D12 /* Pods-KanaProjectTests.modulemap */,
+				8B8F8899B70B790CE2AEFC553E8EF222 /* Pods-KanaProjectTests-acknowledgements.markdown */,
+				61D7C1E19E5283DB81CC3840540FE943 /* Pods-KanaProjectTests-acknowledgements.plist */,
+				AB1CAD0705E7699E77F34F8C373216A4 /* Pods-KanaProjectTests-dummy.m */,
+				E98E65FBEFDBBD6D73198FE0C0A79758 /* Pods-KanaProjectTests-frameworks.sh */,
+				617DE64B2571022A8A5660A1937F8093 /* Pods-KanaProjectTests-resources.sh */,
+				B4EC9D48D5E42A56040A76A0B9F8BD4E /* Pods-KanaProjectTests-umbrella.h */,
+				5046D612B2FE13E92AB45ABD2A363A62 /* Pods-KanaProjectTests.debug.xcconfig */,
+				7720F022D6FAE9C34D9D4ADFCE6BF144 /* Pods-KanaProjectTests.release.xcconfig */,
+			);
+			name = "Pods-KanaProjectTests";
+			path = "Target Support Files/Pods-KanaProjectTests";
+			sourceTree = "<group>";
+		};
+		B92C6C167496C9B0973AB39B79C86147 /* Pods-KanaWatchProject */ = {
+			isa = PBXGroup;
+			children = (
+				37F0C267C71196A7FFB0057CBAC1D026 /* Info.plist */,
+				5A5403FB25D1A9A8798ECED2A9FA2DBF /* Pods-KanaWatchProject.modulemap */,
+				82F1E918670C959312E12856C151050F /* Pods-KanaWatchProject-acknowledgements.markdown */,
+				2000B8219942D326894F8D4DA3E92271 /* Pods-KanaWatchProject-acknowledgements.plist */,
+				EE33995E88270610393281CC176D4E52 /* Pods-KanaWatchProject-dummy.m */,
+				815FA9BAFC58BB9DA76E12D5AB00FDD4 /* Pods-KanaWatchProject-frameworks.sh */,
+				24A3025C4AF1F0E422CA265BA1982AC2 /* Pods-KanaWatchProject-resources.sh */,
+				59CF1D0A637792BF28CA549FACF6B9BF /* Pods-KanaWatchProject-umbrella.h */,
+				E9415C7A482CAC0C7CFD64DEDAE9A422 /* Pods-KanaWatchProject.debug.xcconfig */,
+				B6066CFA8E61D323EAF2157EC01E1720 /* Pods-KanaWatchProject.release.xcconfig */,
+			);
+			name = "Pods-KanaWatchProject";
+			path = "Target Support Files/Pods-KanaWatchProject";
+			sourceTree = "<group>";
+		};
+		BE50AB4B3645EA9432322BA2E72BE2F9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F9AE61DEB7F70B8D5B09290911F0E1C8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A55E96BFD54E4B7DE0BB6A4B7EB5C08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6ABC2445A1C23E328AE45F536B2DD2 /* Pods-KanaWatchProject Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3827D7244860C5C0653491612196BCBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0A500CBF64F829398C526AB806A77E /* Pods-KanaProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED27EB4D5F9D59F2354EF1207B13296 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4B79C75C7879E919C2E63463E43CDD /* Pods-KanaWatchProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78DA0F9BED5C2E3A0D7A0B5ADB1FDC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC9D7146E4337EBB6D736AC6161CC70 /* Pods-KanaProjectTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		415530760CA9DC147A864142A3839411 /* Pods-KanaWatchProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1608DC8789FA0FCE9AE3292D3BDBA7FA /* Build configuration list for PBXNativeTarget "Pods-KanaWatchProject" */;
+			buildPhases = (
+				C950505525D53335C2FA5475A3F6A79C /* Sources */,
+				C032321E0C5234A38B97FB66A3BE39D9 /* Frameworks */,
+				CED27EB4D5F9D59F2354EF1207B13296 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KanaWatchProject";
+			productName = "Pods-KanaWatchProject";
+			productReference = D5D3D1F920379D1A4940D96A0893C584 /* Pods_KanaWatchProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		607DBAE43BB124EB25225CCDCB0C83DE /* Pods-KanaProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72928BD3FD666856078B06E47EC2BED5 /* Build configuration list for PBXNativeTarget "Pods-KanaProject" */;
+			buildPhases = (
+				86464C635939F1EAE5B6E487AF2582A4 /* Sources */,
+				E8DE1B96323359AE4545D8357A2C78C4 /* Frameworks */,
+				3827D7244860C5C0653491612196BCBF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KanaProject";
+			productName = "Pods-KanaProject";
+			productReference = 662DC89DF422ACB643A423BAF93532E9 /* Pods_KanaProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4588DF9934EE686FC18EA8909A532C4 /* Pods-KanaWatchProject Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15F8CB24BA6F977F4892E4B1C7B59B61 /* Build configuration list for PBXNativeTarget "Pods-KanaWatchProject Extension" */;
+			buildPhases = (
+				F15838617A071ACE90594C12296D01F3 /* Sources */,
+				5D526CC40433C7364F579BA80D7351D6 /* Frameworks */,
+				2A55E96BFD54E4B7DE0BB6A4B7EB5C08 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KanaWatchProject Extension";
+			productName = "Pods-KanaWatchProject Extension";
+			productReference = EDA762F19EB91F335463FF84FB72596D /* Pods_KanaWatchProject_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CEACBEF7A840B93C4EBC6C8CF339D82E /* Pods-KanaProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D6EEA6720ADB8A3417CED6A16C4111 /* Build configuration list for PBXNativeTarget "Pods-KanaProjectTests" */;
+			buildPhases = (
+				D3382CF4D04639152AF5AB51E72EF89B /* Sources */,
+				136F84420ACB392DECF7CD05CBD44634 /* Frameworks */,
+				F78DA0F9BED5C2E3A0D7A0B5ADB1FDC5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KanaProjectTests";
+			productName = "Pods-KanaProjectTests";
+			productReference = 0B49F5D2C880B06A7FC22F608736885E /* Pods_KanaProjectTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0C7755769AD6D4BF4671BB07D894CDF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607DBAE43BB124EB25225CCDCB0C83DE /* Pods-KanaProject */,
+				CEACBEF7A840B93C4EBC6C8CF339D82E /* Pods-KanaProjectTests */,
+				415530760CA9DC147A864142A3839411 /* Pods-KanaWatchProject */,
+				B4588DF9934EE686FC18EA8909A532C4 /* Pods-KanaWatchProject Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86464C635939F1EAE5B6E487AF2582A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC639E9772BEAAD0A9F5627BCE9152DD /* Pods-KanaProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C950505525D53335C2FA5475A3F6A79C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBB39BDCF8FF1A79CD9265AF6254B301 /* Pods-KanaWatchProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3382CF4D04639152AF5AB51E72EF89B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB1FA8247B21EEE681E047B8D5147D0 /* Pods-KanaProjectTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15838617A071ACE90594C12296D01F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18EE35D76C22F75A0FFF57EFD7B5114 /* Pods-KanaWatchProject Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		161BBCC2756550E7ACF43CEF19437669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797D4429B1D88783FF242EC35F25953A /* Pods-KanaProject.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KanaProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KanaProject/Pods-KanaProject.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KanaProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1ADCB54A4128F4ABFEC6112B69F9DA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7720F022D6FAE9C34D9D4ADFCE6BF144 /* Pods-KanaProjectTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KanaProjectTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KanaProjectTests/Pods-KanaProjectTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KanaProjectTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A9A16268DCD329FCAFC93C2591EF739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		7791D0DA46FA85389CED2B9B2EA19D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9415C7A482CAC0C7CFD64DEDAE9A422 /* Pods-KanaWatchProject.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KanaWatchProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KanaWatchProject/Pods-KanaWatchProject.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KanaWatchProject;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		8DFF2A60D5C85CD5D07E86EEC31B2266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 478C6E58F9DD95D03693D69546F6223D /* Pods-KanaWatchProject Extension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KanaWatchProject Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KanaWatchProject Extension/Pods-KanaWatchProject Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KanaWatchProject_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		8F33E8D6752E87B2869600E56C6FB5CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6066CFA8E61D323EAF2157EC01E1720 /* Pods-KanaWatchProject.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KanaWatchProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KanaWatchProject/Pods-KanaWatchProject.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KanaWatchProject;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		99F9D30D0C7D63B8340C8C08CA5D6D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 712466EF2A6CBDD1C1C95B3DB6022C4F /* Pods-KanaProject.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KanaProject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KanaProject/Pods-KanaProject.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KanaProject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A279D55C50F1FF1811A1B5940749DF79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		EFBA74F4689DC0FFECF6A2771C3A4E22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5046D612B2FE13E92AB45ABD2A363A62 /* Pods-KanaProjectTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KanaProjectTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KanaProjectTests/Pods-KanaProjectTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KanaProjectTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB49F4AE933CF305C1D61184090108F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 020ED2ABC6E261748E571556FA445395 /* Pods-KanaWatchProject Extension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-KanaWatchProject Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KanaWatchProject Extension/Pods-KanaWatchProject Extension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KanaWatchProject_Extension;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15F8CB24BA6F977F4892E4B1C7B59B61 /* Build configuration list for PBXNativeTarget "Pods-KanaWatchProject Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB49F4AE933CF305C1D61184090108F9 /* Debug */,
+				8DFF2A60D5C85CD5D07E86EEC31B2266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1608DC8789FA0FCE9AE3292D3BDBA7FA /* Build configuration list for PBXNativeTarget "Pods-KanaWatchProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7791D0DA46FA85389CED2B9B2EA19D33 /* Debug */,
+				8F33E8D6752E87B2869600E56C6FB5CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9A16268DCD329FCAFC93C2591EF739 /* Debug */,
+				A279D55C50F1FF1811A1B5940749DF79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72928BD3FD666856078B06E47EC2BED5 /* Build configuration list for PBXNativeTarget "Pods-KanaProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99F9D30D0C7D63B8340C8C08CA5D6D68 /* Debug */,
+				161BBCC2756550E7ACF43CEF19437669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D6EEA6720ADB8A3417CED6A16C4111 /* Build configuration list for PBXNativeTarget "Pods-KanaProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBA74F4689DC0FFECF6A2771C3A4E22 /* Debug */,
+				1ADCB54A4128F4ABFEC6112B69F9DA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
