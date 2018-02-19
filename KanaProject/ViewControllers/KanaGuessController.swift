@@ -90,7 +90,7 @@ class KanaGuessController: UIViewController {
             let trueNumber =  generatedNumbersArray[trueIndex!]
             let hiero = hieros![trueNumber]
             
-            self.hieroglyphLbl.text = "\(UnicodeScalar(hiero.code))"
+            self.hieroglyphLbl.text = "\(String(describing: UnicodeScalar(hiero.code)))"
             
             self.answer1Btn.setTitle(hieros?[generatedNumbersArray[0]].name, for: UIControlState())
             self.answer2Btn.setTitle(hieros?[generatedNumbersArray[1]].name, for: UIControlState())

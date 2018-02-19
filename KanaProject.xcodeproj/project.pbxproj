@@ -20,6 +20,14 @@
 		6BA219EC1AA617B2005E9C9F /* Hieroglyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31667C1AA1D42C00DAA96F /* Hieroglyph.swift */; };
 		6BA219EE1AA618FD005E9C9F /* KanaServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA219ED1AA618FD005E9C9F /* KanaServiceTests.swift */; };
 		6BA219EF1AA61902005E9C9F /* KanaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B31151A1A977CFA00C790B8 /* KanaService.swift */; };
+		F8B3D2201DDF68D0005382B7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B3D21E1DDF68D0005382B7 /* Interface.storyboard */; };
+		F8B3D2221DDF68D0005382B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B3D2211DDF68D0005382B7 /* Assets.xcassets */; };
+		F8B3D2291DDF68D2005382B7 /* KanaWatchProject Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F8B3D2281DDF68D0005382B7 /* KanaWatchProject Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F8B3D2301DDF68D3005382B7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3D22F1DDF68D3005382B7 /* InterfaceController.swift */; };
+		F8B3D2321DDF68D3005382B7 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3D2311DDF68D3005382B7 /* ExtensionDelegate.swift */; };
+		F8B3D2341DDF68D3005382B7 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3D2331DDF68D3005382B7 /* NotificationController.swift */; };
+		F8B3D2361DDF68D3005382B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B3D2351DDF68D3005382B7 /* Assets.xcassets */; };
+		F8B3D23A1DDF68D3005382B7 /* KanaWatchProject.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F8B3D21C1DDF68CF005382B7 /* KanaWatchProject.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +38,46 @@
 			remoteGlobalIDString = 6B3114F41A97799700C790B8;
 			remoteInfo = KanaProject;
 		};
+		F8B3D22A1DDF68D2005382B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B3114ED1A97799700C790B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8B3D2271DDF68D0005382B7;
+			remoteInfo = "KanaWatchProject Extension";
+		};
+		F8B3D2381DDF68D3005382B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B3114ED1A97799700C790B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8B3D21B1DDF68CF005382B7;
+			remoteInfo = KanaWatchProject;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8B3D23E1DDF68D3005382B7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F8B3D2291DDF68D2005382B7 /* KanaWatchProject Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B3D2421DDF68D3005382B7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F8B3D23A1DDF68D3005382B7 /* KanaWatchProject.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6B3114F51A97799700C790B8 /* KanaProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanaProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +95,17 @@
 		6BA219E61AA6176A005E9C9F /* KanaGuessController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KanaGuessController.swift; path = ViewControllers/KanaGuessController.swift; sourceTree = "<group>"; };
 		6BA219E71AA6176A005E9C9F /* KanaSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KanaSelectionViewController.swift; path = ViewControllers/KanaSelectionViewController.swift; sourceTree = "<group>"; };
 		6BA219ED1AA618FD005E9C9F /* KanaServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KanaServiceTests.swift; sourceTree = "<group>"; };
+		F8B3D21C1DDF68CF005382B7 /* KanaWatchProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KanaWatchProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B3D21F1DDF68D0005382B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F8B3D2211DDF68D0005382B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8B3D2231DDF68D0005382B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B3D2281DDF68D0005382B7 /* KanaWatchProject Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "KanaWatchProject Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B3D22E1DDF68D2005382B7 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F8B3D22F1DDF68D3005382B7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F8B3D2311DDF68D3005382B7 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F8B3D2331DDF68D3005382B7 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F8B3D2351DDF68D3005382B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8B3D2371DDF68D3005382B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +123,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8B3D2251DDF68D0005382B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -73,6 +138,8 @@
 			children = (
 				6B3114F71A97799700C790B8 /* KanaProject */,
 				6B31150D1A97799800C790B8 /* KanaProjectTests */,
+				F8B3D21D1DDF68D0005382B7 /* KanaWatchProject */,
+				F8B3D22C1DDF68D2005382B7 /* KanaWatchProject Extension */,
 				6B3114F61A97799700C790B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +149,8 @@
 			children = (
 				6B3114F51A97799700C790B8 /* KanaProject.app */,
 				6B31150A1A97799800C790B8 /* KanaProjectTests.xctest */,
+				F8B3D21C1DDF68CF005382B7 /* KanaWatchProject.app */,
+				F8B3D2281DDF68D0005382B7 /* KanaWatchProject Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,6 +222,37 @@
 			name = Services;
 			sourceTree = "<group>";
 		};
+		F8B3D21D1DDF68D0005382B7 /* KanaWatchProject */ = {
+			isa = PBXGroup;
+			children = (
+				F8B3D21E1DDF68D0005382B7 /* Interface.storyboard */,
+				F8B3D2211DDF68D0005382B7 /* Assets.xcassets */,
+				F8B3D2231DDF68D0005382B7 /* Info.plist */,
+			);
+			path = KanaWatchProject;
+			sourceTree = "<group>";
+		};
+		F8B3D22C1DDF68D2005382B7 /* KanaWatchProject Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F8B3D22F1DDF68D3005382B7 /* InterfaceController.swift */,
+				F8B3D2311DDF68D3005382B7 /* ExtensionDelegate.swift */,
+				F8B3D2331DDF68D3005382B7 /* NotificationController.swift */,
+				F8B3D2351DDF68D3005382B7 /* Assets.xcassets */,
+				F8B3D2371DDF68D3005382B7 /* Info.plist */,
+				F8B3D22D1DDF68D2005382B7 /* Supporting Files */,
+			);
+			path = "KanaWatchProject Extension";
+			sourceTree = "<group>";
+		};
+		F8B3D22D1DDF68D2005382B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8B3D22E1DDF68D2005382B7 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -163,10 +263,12 @@
 				6B3114F11A97799700C790B8 /* Sources */,
 				6B3114F21A97799700C790B8 /* Frameworks */,
 				6B3114F31A97799700C790B8 /* Resources */,
+				F8B3D2421DDF68D3005382B7 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F8B3D2391DDF68D3005382B7 /* PBXTargetDependency */,
 			);
 			name = KanaProject;
 			productName = KanaProject;
@@ -191,6 +293,40 @@
 			productReference = 6B31150A1A97799800C790B8 /* KanaProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F8B3D21B1DDF68CF005382B7 /* KanaWatchProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B3D23F1DDF68D3005382B7 /* Build configuration list for PBXNativeTarget "KanaWatchProject" */;
+			buildPhases = (
+				F8B3D21A1DDF68CF005382B7 /* Resources */,
+				F8B3D23E1DDF68D3005382B7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8B3D22B1DDF68D2005382B7 /* PBXTargetDependency */,
+			);
+			name = KanaWatchProject;
+			productName = KanaWatchProject;
+			productReference = F8B3D21C1DDF68CF005382B7 /* KanaWatchProject.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F8B3D2271DDF68D0005382B7 /* KanaWatchProject Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B3D23B1DDF68D3005382B7 /* Build configuration list for PBXNativeTarget "KanaWatchProject Extension" */;
+			buildPhases = (
+				F8B3D2241DDF68D0005382B7 /* Sources */,
+				F8B3D2251DDF68D0005382B7 /* Frameworks */,
+				F8B3D2261DDF68D0005382B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KanaWatchProject Extension";
+			productName = "KanaWatchProject Extension";
+			productReference = F8B3D2281DDF68D0005382B7 /* KanaWatchProject Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,19 +334,30 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 0720;
-				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0810;
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Eugene Chechkov";
 				TargetAttributes = {
 					6B3114F41A97799700C790B8 = {
 						CreatedOnToolsVersion = 6.1.1;
 						DevelopmentTeam = VQDQ88B5SC;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 0920;
 					};
 					6B3115091A97799800C790B8 = {
 						CreatedOnToolsVersion = 6.1.1;
 						LastSwiftMigration = 0810;
 						TestTargetID = 6B3114F41A97799700C790B8;
+					};
+					F8B3D21B1DDF68CF005382B7 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					F8B3D2271DDF68D0005382B7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VQDQ88B5SC;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -229,6 +376,8 @@
 			targets = (
 				6B3114F41A97799700C790B8 /* KanaProject */,
 				6B3115091A97799800C790B8 /* KanaProjectTests */,
+				F8B3D21B1DDF68CF005382B7 /* KanaWatchProject */,
+				F8B3D2271DDF68D0005382B7 /* KanaWatchProject Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +398,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B3D21A1DDF68CF005382B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B3D2221DDF68D0005382B7 /* Assets.xcassets in Resources */,
+				F8B3D2201DDF68D0005382B7 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B3D2261DDF68D0005382B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B3D2361DDF68D3005382B7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +444,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F8B3D2241DDF68D0005382B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B3D2341DDF68D3005382B7 /* NotificationController.swift in Sources */,
+				F8B3D2321DDF68D3005382B7 /* ExtensionDelegate.swift in Sources */,
+				F8B3D2301DDF68D3005382B7 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -285,6 +461,16 @@
 			isa = PBXTargetDependency;
 			target = 6B3114F41A97799700C790B8 /* KanaProject */;
 			targetProxy = 6B31150B1A97799800C790B8 /* PBXContainerItemProxy */;
+		};
+		F8B3D22B1DDF68D2005382B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8B3D2271DDF68D0005382B7 /* KanaWatchProject Extension */;
+			targetProxy = F8B3D22A1DDF68D2005382B7 /* PBXContainerItemProxy */;
+		};
+		F8B3D2391DDF68D3005382B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8B3D21B1DDF68CF005382B7 /* KanaWatchProject */;
+			targetProxy = F8B3D2381DDF68D3005382B7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -295,6 +481,14 @@
 				6B3114FF1A97799700C790B8 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8B3D21E1DDF68D0005382B7 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8B3D21F1DDF68D0005382B7 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -308,14 +502,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -338,12 +538,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -356,14 +556,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -379,11 +585,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0.1;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -400,7 +606,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.graistudio.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -415,7 +622,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.graistudio.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -432,7 +640,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "eu.aejis.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanaProject.app/KanaProject";
 			};
 			name = Debug;
@@ -446,8 +654,104 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "eu.aejis.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KanaProject.app/KanaProject";
+			};
+			name = Release;
+		};
+		F8B3D23C1DDF68D3005382B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VQDQ88B5SC;
+				INFOPLIST_FILE = "KanaWatchProject Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.graistudio.KanaProject.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		F8B3D23D1DDF68D3005382B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VQDQ88B5SC;
+				INFOPLIST_FILE = "KanaWatchProject Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.graistudio.KanaProject.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		F8B3D2401DDF68D3005382B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				IBSC_MODULE = KanaWatchProject_Extension;
+				INFOPLIST_FILE = KanaWatchProject/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.graistudio.KanaProject.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		F8B3D2411DDF68D3005382B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IBSC_MODULE = KanaWatchProject_Extension;
+				INFOPLIST_FILE = KanaWatchProject/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.graistudio.KanaProject.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
 			};
 			name = Release;
 		};
@@ -477,6 +781,24 @@
 			buildConfigurations = (
 				6B3115181A97799800C790B8 /* Debug */,
 				6B3115191A97799800C790B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B3D23B1DDF68D3005382B7 /* Build configuration list for PBXNativeTarget "KanaWatchProject Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B3D23C1DDF68D3005382B7 /* Debug */,
+				F8B3D23D1DDF68D3005382B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B3D23F1DDF68D3005382B7 /* Build configuration list for PBXNativeTarget "KanaWatchProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B3D2401DDF68D3005382B7 /* Debug */,
+				F8B3D2411DDF68D3005382B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,11 +8,11 @@
 
 import Foundation
 
-class Hieroglyph: NSObject {
+class Hieroglyph {
     let code: Int
     let name: String
     
-    fileprivate override convenience init() {
+    fileprivate convenience init() {
         self.init(code:-1, name:"noname")
     }
     

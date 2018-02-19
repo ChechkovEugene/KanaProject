@@ -12,7 +12,7 @@ enum KanaType {
     case hiragana, katakana
 }
 
-class KanaService: NSObject {
+class KanaService {
     
     class func generateRandoms(_ count:Int, upperBound:Int) -> [Int] {
         
